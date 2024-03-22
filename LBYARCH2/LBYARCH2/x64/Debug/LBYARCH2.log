@@ -1,0 +1,3 @@
+﻿  main.c
+D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(78,13): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+  LBYARCH2.vcxproj -> D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\x64\Debug\LBYARCH2.exe
