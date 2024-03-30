@@ -1,5 +1,34 @@
 # Comparative Analysis of both C and ASM kernels in Debug and Release Mode
 
+## Approximate Mean/Average Running Times (in seconds)
+| Vector Sizes | C (Debug Mode) | Kernel (Debug Mode) | C (Release Mode) | Kernel (Release Mode) |
+|--------------|----------------|---------------------|------------------|-----------------------|
+| 2^20         |          7.812 |               3.537 |            3.069 |                 3.147 |
+| 2^24         |          0.082 |               0.026 |            0.057 |                  0.04 |
+| 2^30         |          0.005 |               0.002 |            0.002 |                 0.002 |
+
+## Standard Deviation of Running Times (in seconds)
+| Vector Sizes | C (Debug Mode) | Kernel (Debug Mode) | C (Release Mode) | Kernel (Release Mode) |
+|--------------|----------------|---------------------|------------------|-----------------------|
+| 2^20         |          1.593 |               0.471 |            0.301 |                 0.205 |
+| 2^24         |          0.004 |               0.001 |            0.031 |                  0.01 |
+| 2^30         |          0.001 |               0.001 |            0.001 |                 0.001 |
+
+## Analysis of the Running Times (WORK IN PROGRESS)
+
+work in progress
+
+## Correctness Checks
+
+**Outputs in Debug Mode**
+
+
+**Outputs in Release Mode**
+
+work in progress
+
+# Appendix
+
 ## Running Times for X_length = 2^30 (in seconds)
 | Run No.        | C Debug | ASM Debug | Run No.        | C Release Mode | ASM Release Mode |
 |----------------|---------|-----------|----------------|----------------|------------------|
@@ -107,30 +136,3 @@
 |            #30 |            0.005 |              0.002 |            #30 |             0.002 |                0.002 |
 | Mean           |            0.005 |              0.002 | Mean           |             0.002 |                0.002 |
 | Std. Deviation |            0.001 |              0.001 | Std. Deviation |             0.001 |                0.001 |
-
-## Approximate Mean/Average Running Times (in seconds)
-| Vector Sizes | C (Debug Mode) | Kernel (Debug Mode) | C (Release Mode) | Kernel (Release Mode) |
-|--------------|----------------|---------------------|------------------|-----------------------|
-| 2^20         |          7.812 |               3.537 |            3.069 |                 3.147 |
-| 2^24         |          0.082 |               0.026 |            0.057 |                  0.04 |
-| 2^30         |          0.005 |               0.002 |            0.002 |                 0.002 |
-
-## Standard Deviation of Running Times (in seconds)
-| Vector Sizes | C (Debug Mode) | Kernel (Debug Mode) | C (Release Mode) | Kernel (Release Mode) |
-|--------------|----------------|---------------------|------------------|-----------------------|
-| 2^20         |          1.593 |               0.471 |            0.301 |                 0.205 |
-| 2^24         |          0.004 |               0.001 |            0.031 |                  0.01 |
-| 2^30         |          0.001 |               0.001 |            0.001 |                 0.001 |
-
-## Analysis of the Running Times (WORK IN PROGRESS)
-
-work in progress
-
-## Correctness Checks
-
-**Outputs in Debug Mode**
-
-
-**Outputs in Release Mode**
-
-work in progress
