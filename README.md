@@ -64,10 +64,10 @@ It is noted though that the ASM kernel has a longer average time in release mode
 ## Correctness Checks
 ![Screenshot 2024-03-30 194857](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/4f40adbf-02ca-4811-8920-57dd935b7dbe)
 
-Outputs in Debug Mode
+**Outputs in Debug Mode**
 
 ![Screenshot 2024-03-30 194920](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/e29b57e7-4a51-48fe-8736-8ac072684433)
 
-Outputs in Release Mode
+**Outputs in Release Mode**
 
 As seen in the screenshots above, both kernels output the same values in both debug and release modes which shows the correctness of the code.
