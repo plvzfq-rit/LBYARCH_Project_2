@@ -40,27 +40,27 @@ EL2:
     cmp r12, 10
     jg L20
 EL2B:
-    xor r13, r13
-    mov r14, r8
-    sub rsp, 8 * 5
-    lea rcx, [header]
-    call printf
-    add rsp, 8 * 5
-L3:
-    movss xmm1, [r14 + r13 * 4]
-    cvtss2sd xmm2, xmm1
-    movsd [qholder], xmm2
-    sub rsp, 8 * 5
-    lea rcx, [print_double]
-    mov rdx, r13
-    mov r8, [qholder]
-    call printf
-    add rsp, 8 * 5
-    inc r13
-    cmp r13, r12
-    jge EL3
-    jmp L3
-EL3:
+    ;xor r13, r13
+    ;mov r14, r8
+    ;sub rsp, 8 * 5
+    ;lea rcx, [header]
+    ;call printf
+    ;add rsp, 8 * 5
+;L3:
+    ;movss xmm1, [r14 + r13 * 4]
+    ;cvtss2sd xmm2, xmm1
+    ;movsd [qholder], xmm2
+    ;sub rsp, 8 * 5
+    ;lea rcx, [print_double]
+    ;mov rdx, r13
+    ;mov r8, [qholder]
+    ;call printf
+    ;add rsp, 8 * 5
+    ;inc r13
+    ;cmp r13, r12
+    ;jge EL3
+    ;jmp L3
+;EL3:
     xor rax, rax
     ret
 

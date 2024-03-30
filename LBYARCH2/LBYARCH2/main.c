@@ -21,6 +21,24 @@ void ckernel(int x_length, float* x, float* y) {
         holder = holder + *(x + i) - *(x + i - 7);
         *(y + i - 6) = holder;
     }
+}
+
+int main() {
+
+    long long x_length;
+    long long i;
+    long long min = 0;
+    float* x;
+    float* y;
+    long long temp;
+    clock_t start;
+    clock_t end;
+
+    printf("Note: 2^20 = 1048576 -- 2^24 = 16777216 -- 2^30 = 1073741824\n");
+    printf("Insert x_length: ");
+    scanf_s("%lld", &x_length);
+
+    x = (float*)malloc(x_length * sizeof(float));
 
     if (x_length - 6 < 10) {
         min = x_length - 6;
@@ -28,31 +46,6 @@ void ckernel(int x_length, float* x, float* y) {
     else {
         min = 10;
     }
-
-    printf("Y array contents:\n");
-
-    for (i = 0; i < min; i++) {
-        printf("Y[%d] = %f\n", i, *(y + i));
-    }
-}
-
-float getrandomfloat() {
-    return (float)(rand()) / (float)(rand());
-}
-
-int main() {
-
-    long long x_length;
-    int i;
-    float* x;
-    float* y;
-    long long temp;
-    clock_t start;
-    clock_t end;
-
-    x_length = 1073741824;
-
-    x = (float*)malloc(x_length * sizeof(float));
 
     printf("Generating random values...\n");
     for (i = 0; i < x_length; i++) {
@@ -66,6 +59,8 @@ int main() {
     else {
         temp = 16;
     }
+
+    printf("X array contents:\n");
     for (i = 0; i < temp; i++) {
         printf("X[%d] = %f\n", i, *(x + i));
     }
@@ -74,12 +69,21 @@ int main() {
     y = (float*)malloc((x_length - 6) * sizeof(float));
 
     printf("--- Testing C Speed ---\n");
+    printf("Computing...");
     start = clock();
     ckernel(x_length, x, y);
     end = clock();
-    printf("Time taken: %lf", ((double)(end - start)) / CLOCKS_PER_SEC);
+    printf("Done computing.\n");
+
     printf("\n");
 
+    printf("Y array contents:\n");
+    for (i = 0; i < min; i++) {
+        printf("Y[%d] = %f\n", i, *(y + i));
+    }
+    printf("Time taken: %lf\n", ((double)(end - start)) / CLOCKS_PER_SEC);
+    printf("\n");
+    printf("Resetting...\n");
     for (i = 0; i < x_length - 6; i++) {
         *(y + i) = 0.0;
     }
@@ -87,9 +91,16 @@ int main() {
     printf("\n");
 
     printf("--- Testing ASM Speed ---\n");
+    printf("Computing...");
     start = clock();
     asmkernel(x_length, x, y);
     end = clock();
+    printf("Done computing.");
+
+    printf("Y array contents:\n");
+    for (i = 0; i < min; i++) {
+        printf("Y[%d] = %f\n", i, *(y + i));
+    }
     printf("Time taken: %lf", ((double)(end - start)) / CLOCKS_PER_SEC);
 
     return 0;

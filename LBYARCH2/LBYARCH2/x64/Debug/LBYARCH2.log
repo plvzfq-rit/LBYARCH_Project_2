@@ -1,3 +1,28 @@
 ﻿  main.c
-D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(78,13): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(12,9): warning C4101: 'min': unreferenced local variable
+D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(65,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(65,16):
+  consider using '%lld' in the format string
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(65,16):
+  consider using '%Id' in the format string
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(65,16):
+  consider using '%I64d' in the format string
+  
+D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(74,13): warning C4244: 'function': conversion from '__int64' to 'int', possible loss of data
+D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(82,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(82,16):
+  consider using '%lld' in the format string
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(82,16):
+  consider using '%Id' in the format string
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(82,16):
+  consider using '%I64d' in the format string
+  
+D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(102,16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(102,16):
+  consider using '%lld' in the format string
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(102,16):
+  consider using '%Id' in the format string
+  D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\LBYARCH2\main.c(102,16):
+  consider using '%I64d' in the format string
+  
   LBYARCH2.vcxproj -> D:\Projects\lbyarch_files\New folder\LBYARCH_Project_2\LBYARCH2\x64\Debug\LBYARCH2.exe
