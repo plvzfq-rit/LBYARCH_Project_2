@@ -21,13 +21,28 @@ From the results, it can be seen that the mean or average running times of the A
 ## Correctness Checks
 
 **Outputs in Debug Mode**
+
 ![Screenshot 2024-03-31 094525](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/41654ca0-0432-446c-b9f5-61e9784c6f38)
+C and ASM Kernel Outputs at Vector size 2^20 ran in Debug Mode
+
 ![Screenshot 2024-03-31 094603](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/64ecc1d0-f3de-467f-94c2-ba1b70699f54)
+C and ASM Kernel Outputs at Vector size 2^24 ran in Debug Mode
+
 ![Screenshot 2024-03-31 094636](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/7a833bfc-5727-49d8-a0a4-36ea323d4c93)
+C and ASM Kernel Outputs at Vector size 2^30 ran in Debug Mode
+
 **Outputs in Release Mode**
+
 ![Screenshot 2024-03-31 094657](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/dbc83bba-202c-4090-91b2-92495ab56d0b)
+C and ASM Kernel Outputs at Vector size 2^20 ran in Release Mode
+
 ![Screenshot 2024-03-31 094712](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/4115a17b-2af9-4e3e-ab90-db2c88a5d766)
+C and ASM Kernel Outputs at Vector size 2^24 ran in Release Mode
+
 ![Screenshot 2024-03-31 094736](https://github.com/plvzfq-rit/LBYARCH_Project_2/assets/107260683/eb8e492b-e7bd-4a21-957e-b5330ffde24d)
+C and ASM Kernel Outputs at Vector size 2^30 ran in Release Mode
+
+
 # Appendix
 
 ## Running Times for X_length = 2^30 (in seconds)
