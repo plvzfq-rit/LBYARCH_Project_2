@@ -6,7 +6,7 @@
 | 2^20         |          7.812 |               3.537 |            3.069 |                 3.147 |
 | 2^24         |          0.082 |               0.026 |            0.057 |                  0.04 |
 | 2^30         |          0.005 |               0.002 |            0.002 |                 0.002 |
-
+> See Appendix for the full list of running time values of each trial run
 ## Standard Deviation of Running Times (in seconds)
 | Vector Sizes | C (Debug Mode) | ASM (Debug Mode) | C (Release Mode) | ASM (Release Mode) |
 |--------------|----------------|---------------------|------------------|-----------------------|
