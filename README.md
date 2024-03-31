@@ -33,7 +33,7 @@ From the results, it can be seen that the mean or average running times of the A
 # Appendix
 
 ## Running Times for X_length = 2^20 (in seconds)
-| Run No.        | C Debug Time (s) | ASM Debug Time (s) | Run No.        | C Release Time(s) | ASM Release Time (s) |
+| Run No.        | C Debug Mode Time (s) | ASM Debug Mode Time (s) | Run No.        | C Release Mode Time (s) | ASM Release Mode Time (s) |
 |----------------|------------------|--------------------|----------------|-------------------|----------------------|
 |            #01 |            0.005 |              0.001 |            #01 |             0.002 |                0.001 |
 |            #02 |            0.006 |              0.001 |            #02 |             0.002 |                0.002 |
@@ -69,7 +69,7 @@ From the results, it can be seen that the mean or average running times of the A
 | Std. Deviation |            0.001 |              0.001 | Std. Deviation |             0.001 |                0.001 |
 
 ## Running Times for X_length = 2^24 (in seconds)
-| Run No.        | C Debug Time (s) | ASM Debug Time (s) | Run No.        | C Release Time(s) | ASM Release Time (s) |
+| Run No.        | C Debug Mode Time (s) | ASM Debug Mode Time (s) | Run No.        | C Release Mode Time (s) | ASM Release Mode Time (s) |
 |----------------|------------------|--------------------|----------------|-------------------|----------------------|
 |            #01 |            0.084 |              0.025 |            #01 |             0.032 |                0.029 |
 |            #02 |            0.084 |              0.025 |            #02 |             0.062 |                0.049 |
@@ -105,7 +105,7 @@ From the results, it can be seen that the mean or average running times of the A
 | Std. Deviation |            0.004 |              0.001 | Std. Deviation |             0.031 |                0.010 |
 
 ## Running Times for X_length = 2^30 (in seconds)
-| Run No.        | C Debug | ASM Debug | Run No.        | C Release Mode | ASM Release Mode |
+| Run No.        | C Debug Mode Time (s)| ASM Debug Mode Time (s)| Run No.        | C Release Mode Time (s) | ASM Release Mode Time (s) |
 |----------------|---------|-----------|----------------|----------------|------------------|
 |            #01 |  13.931 |     3.165 |            #01 |          4.447 |            3.149 |
 |            #02 |  12.153 |     3.187 |            #02 |          3.759 |            3.108 |
