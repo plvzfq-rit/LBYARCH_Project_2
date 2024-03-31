@@ -16,7 +16,7 @@
 
 ## Analysis of the Running Times
 
-From the results, it can be seen that the mean or average running times of the ASM kernel in debug mode is more efficient than its C counterpart. As the vector size increases, the running time of the C kernel increases more compared to the ASM kernel. However, the average running times of the C kernel significantly decreases when the program is ran in release mode. This is not true for the ASM kernel, where its  running time does not change as much from debug mode to release mode. This shows that the optimization in Visual Studio works better and has a significant effect for C than for ASM. Without optimization, such as in debug mode, ASM runs better, but with optimization, both run at similar times. Overall though, ASM is better performing with lower standard deviations in its running times compared to C as well.
+From the results, it can be seen that the mean or average running times of the ASM kernel in debug mode is more efficient than its C counterpart. As the vector size increases, the running time of the C kernel increases more compared to the ASM kernel. However, the average running times of the C kernel significantly decreases when the program is ran in release mode. This is not true for the ASM kernel, where its  running time does not change as much from debug mode to release mode. This shows that the optimization in Visual Studio works better and has more of a significant effect on C than on ASM code. Without optimization, such as in debug mode, ASM runs better, but with it, both the C and ASM kernels run at close times. Overall though, the ASM kernel is better performing with lower standard deviations in its running times compared to the C kernel.
 
 ## Correctness Checks
 
